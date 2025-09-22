@@ -1,0 +1,11 @@
+langchain>=0.1.0
+langchain-community>=0.0.20
+langgraph>=0.0.33
+mcp>=1.0.0
+pydantic>=2.0.0
+pyyaml>=6.0.0
+asyncio>=3.4.3
+uvicorn>=0.24.0
+fastapi>=0.104.0
+ollama>=0.1.0
+requests>=2.31.0

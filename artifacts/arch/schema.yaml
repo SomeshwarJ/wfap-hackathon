@@ -1,0 +1,70 @@
+wfap_protocol:
+  version: "1.0"
+  intent_schema:
+    type: object
+    required:
+      - request_id
+      - company_id
+      - amount
+      - duration
+      - purpose
+      - timestamp
+      - signature
+    properties:
+      request_id:
+        type: string
+        format: uuid
+      company_id:
+        type: string
+      amount:
+        type: number
+        minimum: 1000
+      duration:
+        type: integer
+        minimum: 1
+      purpose:
+        type: string
+      timestamp:
+        type: string
+        format: date-time
+      signature:
+        type: string
+
+  offer_schema:
+    type: object
+    required:
+      - offer_id
+      - request_id
+      - bank_id
+      - interest_rate
+      - amount_approved
+      - repayment_period
+      - esg_summary
+      - carbon_adjusted_rate
+      - timestamp
+      - signature
+    properties:
+      offer_id:
+        type: string
+        format: uuid
+      request_id:
+        type: string
+        format: uuid
+      bank_id:
+        type: string
+      interest_rate:
+        type: number
+        minimum: 0
+      amount_approved:
+        type: number
+      repayment_period:
+        type: integer
+      esg_summary:
+        type: string
+      carbon_adjusted_rate:
+        type: number
+      timestamp:
+        type: string
+        format: date-time
+      signature:
+        type: string
