@@ -1,0 +1,205 @@
+.previous-offers-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.previous-offers-section h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.previous-offers-loading {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  padding: 2rem;
+}
+
+.offers-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.loan-request-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #8B0000;
+}
+
+.request-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.request-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.request-date {
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.request-details {
+  margin-bottom: 1.5rem;
+}
+
+.request-details p {
+  margin: 0.25rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.offers-summary h4 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.offers-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.mini-offer-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #eee;
+  transition: transform 0.2s ease;
+}
+
+.mini-offer-card:hover {
+  transform: translateY(-1px);
+}
+
+.mini-offer-card.approved {
+  border-left: 3px solid #4CAF50;
+}
+
+.mini-offer-card.rejected {
+  border-left: 3px solid #ff4757;
+  background: #fff5f5;
+}
+
+.mini-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #8B0000 0%, #A52A2A 100%);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin: -1rem -1rem 0.5rem -1rem;
+}
+
+.bank-name {
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.mini-status {
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mini-status.approved {
+  background: #e8f5e8;
+  color: #4CAF50;
+}
+
+.mini-status.rejected {
+  background: #ffeaea;
+  color: #ff4757;
+}
+
+.mini-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-details span {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.mini-details span:first-child {
+  font-weight: 600;
+  color: #333;
+}
+
+.mini-rejection {
+  text-align: center;
+  width: 100%;
+}
+
+.mini-rejection span {
+  color: #ff4757;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.no-offers {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .offers-mini-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .mini-offer-card {
+    padding: 0.75rem;
+  }
+
+  .request-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .offers-timeline {
+    gap: 1rem;
+  }
+
+  .loan-request-card {
+    padding: 1rem;
+  }
+
+  .request-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .offers-mini-grid {
+    gap: 0.5rem;
+  }
+}

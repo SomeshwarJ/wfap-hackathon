@@ -10,7 +10,7 @@ class OllamaConfig:
         "llama3.2": "llama3.2"
     }
 
-    DEFAULT_MODEL = "phi:latest"
+    DEFAULT_MODEL = "llama3.2"
     OLLAMA_BASE_URL = "http://localhost:11434"
 
     @staticmethod

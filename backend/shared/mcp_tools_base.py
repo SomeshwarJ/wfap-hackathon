@@ -2,8 +2,6 @@ from langchain.tools import tool
 from langchain.tools.base import BaseTool
 from typing import List, Type
 import json
-from shared.utils import validate_signature, calculate_carbon_adjusted_rate
-from shared.models import Intent
 import random
 
 

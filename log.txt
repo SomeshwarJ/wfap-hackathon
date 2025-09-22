@@ -1,0 +1,275 @@
+2025-09-22 18:53:07,079 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 200000.0, purpose crypto
+2025-09-22 18:53:07,108 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 18:53:07,320 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 400 Bad Request"
+2025-09-22 18:53:07,323 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 200000.0, purpose crypto
+2025-09-22 18:53:07,342 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 18:53:07,389 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 400 Bad Request"
+2025-09-22 18:53:07,391 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 200000.0, purpose crypto
+2025-09-22 18:53:07,412 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 18:53:07,448 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 400 Bad Request"
+2025-09-22 18:55:39,181 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 230000.0, purpose Manufacturing
+2025-09-22 18:55:39,214 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 18:55:49,021 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 18:55:50,545 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 18:55:51,485 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 18:55:51,828 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 18:55:54,274 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 18:55:54,275 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 218500, interest_rate: 0.0679, carbon_adjusted_rate: 0.0675
+2025-09-22 18:55:54,276 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 230000.0, purpose Manufacturing
+2025-09-22 18:55:54,329 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 18:55:56,448 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 18:55:58,512 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 230000.0, purpose Manufacturing
+2025-09-22 18:55:58,549 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 18:56:00,774 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 18:56:01,871 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 1 offers
+2025-09-22 18:56:01,884 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_1, total_score: 0.848
+2025-09-22 19:00:54,535 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 340000.0, purpose startup business
+2025-09-22 19:00:54,566 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:00:57,174 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:00:59,552 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:00,468 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:02,643 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:02,672 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:01:02,673 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 289000, interest_rate: 0.08810000000000001, carbon_adjusted_rate: 0.0675
+2025-09-22 19:01:02,673 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 340000.0, purpose startup business
+2025-09-22 19:01:02,699 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:01:05,135 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:09,288 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:09,847 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:20,958 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:01:20,959 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 272000, interest_rate: 0.1089, carbon_adjusted_rate: 0.069
+2025-09-22 19:01:20,960 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 340000.0, purpose startup business
+2025-09-22 19:01:21,020 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:01:23,455 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:25,231 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:01:27,073 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:01:27,074 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 306000, interest_rate: 0.12295, carbon_adjusted_rate: 0.1025
+2025-09-22 19:01:27,075 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 3 offers
+2025-09-22 19:01:27,101 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_1, total_score: 0.908
+2025-09-22 19:14:53,173 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 3500000.0, purpose Innovation in Quantum computing
+2025-09-22 19:14:53,207 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:15:01,316 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:01,759 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:02,749 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:15:04,066 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:07,264 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 1500000, interest_rate: 0.0695, carbon_adjusted_rate: 0.0625
+2025-09-22 19:15:07,264 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 3500000.0, purpose Innovation in Quantum computing
+2025-09-22 19:15:07,295 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:15:09,461 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:12,456 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:13,924 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:17,554 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:26,579 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:15:27,709 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:29,856 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 750000, interest_rate: 0.0775, carbon_adjusted_rate: 0.064
+2025-09-22 19:15:29,857 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 3500000.0, purpose Innovation in Quantum computing
+2025-09-22 19:15:29,925 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:15:32,446 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:33,282 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:36,887 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:15:38,396 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:15:41,451 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 2000000, interest_rate: 0.08700000000000001, carbon_adjusted_rate: 0.0975
+2025-09-22 19:15:41,453 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 3 offers
+2025-09-22 19:15:41,469 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_1, total_score: 0.852
+2025-09-22 19:17:46,916 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 560000.0, purpose solar panels
+2025-09-22 19:17:46,952 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:17:49,582 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:17:51,223 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:17:52,060 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:17:53,302 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:17:57,389 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:17:57,420 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:17:58,873 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:01,495 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 588000, interest_rate: 0.045, carbon_adjusted_rate: 0.0435
+2025-09-22 19:18:01,496 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 560000.0, purpose solar panels
+2025-09-22 19:18:01,572 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:18:04,312 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:09,727 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:14,359 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:14,389 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:18:15,697 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:17,566 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 548800, interest_rate: 0.048, carbon_adjusted_rate: 0.045
+2025-09-22 19:18:17,567 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 560000.0, purpose solar panels
+2025-09-22 19:18:17,618 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:18:20,342 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:21,024 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:22,567 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:18:23,951 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:18:26,538 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 576800, interest_rate: 0.06925, carbon_adjusted_rate: 0.0785
+2025-09-22 19:18:26,539 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 3 offers
+2025-09-22 19:18:26,555 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_1, total_score: 0.924
+2025-09-22 19:24:27,077 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 2000000.0, purpose coal mining operations
+2025-09-22 19:24:27,106 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:24:35,374 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:37,179 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:37,585 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:39,920 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:24:40,853 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:43,298 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 1200000, interest_rate: 0.1135, carbon_adjusted_rate: 0.0795
+2025-09-22 19:24:43,299 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 2000000.0, purpose coal mining operations
+2025-09-22 19:24:43,338 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:24:45,974 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:49,364 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:52,575 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:24:56,062 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:24:57,684 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:25:00,529 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 750000, interest_rate: 0.09, carbon_adjusted_rate: 0.081
+2025-09-22 19:25:00,530 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 2000000.0, purpose coal mining operations
+2025-09-22 19:25:00,556 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:25:02,785 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:25:05,931 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 2 offers
+2025-09-22 19:25:05,939 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_1, total_score: 0.81
+2025-09-22 19:31:59,976 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 500000.0, purpose coal mining operations
+2025-09-22 19:32:00,023 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:32:09,743 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:12,513 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:17,008 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:17,038 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:32:17,038 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 0, interest_rate: 0.12, carbon_adjusted_rate: 0.12
+2025-09-22 19:32:17,039 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 500000.0, purpose coal mining operations
+2025-09-22 19:32:17,067 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:32:19,271 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:23,073 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:23,659 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:24,866 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:32:26,226 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:29,526 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 500000, interest_rate: 0.0855, carbon_adjusted_rate: 0.081
+2025-09-22 19:32:29,527 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 500000.0, purpose coal mining operations
+2025-09-22 19:32:29,551 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:32:31,726 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:32,899 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:34,841 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:32:36,244 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:32:39,352 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 500000, interest_rate: 0.09525, carbon_adjusted_rate: 0.1145
+2025-09-22 19:32:39,353 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 3 offers
+2025-09-22 19:32:39,367 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_2, total_score: 0.886
+2025-09-22 19:35:18,546 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 3500000.0, purpose coal mining operations
+2025-09-22 19:35:18,577 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:35:21,364 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:21,892 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:23,539 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:35:23,539 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 0, interest_rate: 0.12, carbon_adjusted_rate: 0.12
+2025-09-22 19:35:23,539 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 3500000.0, purpose coal mining operations
+2025-09-22 19:35:23,576 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:35:25,917 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:28,583 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 3500000.0, purpose coal mining operations
+2025-09-22 19:35:28,645 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:35:28,984 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:33,486 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:37,434 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:41,470 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:53,226 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:35:54,239 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:35:56,986 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 2000000, interest_rate: 0.09975, carbon_adjusted_rate: 0.1145
+2025-09-22 19:35:56,987 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 1 offers
+2025-09-22 19:35:57,006 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_3, total_score: 0.79
+2025-09-22 19:42:02,909 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:42:02,940 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:42:10,437 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:15,073 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:15,970 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:17,451 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:21,225 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:21,254 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:42:21,254 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 0, interest_rate: 0.12, carbon_adjusted_rate: 0.12
+2025-09-22 19:42:21,255 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:42:21,315 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:42:23,733 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:26,672 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:29,960 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:37,162 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:42:38,480 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:40,849 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 350000, interest_rate: 0.0849, carbon_adjusted_rate: 0.081
+2025-09-22 19:42:40,849 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:42:40,931 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:42:42,956 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:44,809 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:46,836 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:42:47,852 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:42:48,434 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 350000, interest_rate: 0.09495, carbon_adjusted_rate: 0.1145
+2025-09-22 19:42:48,435 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 2 offers
+2025-09-22 19:42:48,463 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_2, total_score: 0.886
+2025-09-22 19:46:16,465 - __main__ - INFO - FastAPI service initialized with agents
+2025-09-22 19:46:47,549 - __main__ - INFO - FastAPI service initialized with agents
+2025-09-22 19:47:23,156 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:47:23,314 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:47:26,234 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:26,688 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:29,948 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:47:29,948 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 0, interest_rate: 0.12, carbon_adjusted_rate: 0.12
+2025-09-22 19:47:29,948 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:47:30,003 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:47:32,270 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:35,483 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:36,407 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:37,313 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:41,777 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:41,807 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent invocation completed
+2025-09-22 19:47:43,210 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:46,319 - bank_agents.bank2_agent - INFO - Bank2Agent: Offer created - amount_approved: 350000, interest_rate: 0.0849, carbon_adjusted_rate: 0.081
+2025-09-22 19:47:46,319 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:47:46,349 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:47:48,882 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:51,977 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:47:55,722 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:48:04,223 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:48:05,104 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:48:09,119 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 350000, interest_rate: 0.09495, carbon_adjusted_rate: 0.1145
+2025-09-22 19:48:09,119 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 2 offers
+2025-09-22 19:48:09,154 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_2, total_score: 0.886
+2025-09-22 19:52:52,078 - __main__ - INFO - FastAPI service initialized with agents
+2025-09-22 19:53:05,460 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:53:05,499 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:53:08,013 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:10,098 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:10,851 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 19:53:10,852 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 0, interest_rate: 0.12, carbon_adjusted_rate: 0.12
+2025-09-22 19:53:10,852 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:53:10,890 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:53:13,026 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:18,286 - __main__ - ERROR - Error from Bank 2 (Traditional): 1 validation error for assess_risk
+kwargs
+  Input should be a valid dictionary [type=dict_type, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-09-22 19:53:18,287 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose coal mining operations
+2025-09-22 19:53:18,314 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 19:53:18,772 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:23,064 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:26,014 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:28,847 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:35,227 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:35,268 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 19:53:39,549 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 19:53:41,362 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 350000, interest_rate: 0.09495, carbon_adjusted_rate: 0.1145
+2025-09-22 19:53:41,364 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 1 offers
+2025-09-22 19:53:41,382 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_3, total_score: 0.79
+2025-09-22 20:10:23,824 - __main__ - INFO - FastAPI service initialized with agents
+2025-09-22 20:25:28,073 - __main__ - INFO - FastAPI service initialized with agents
+2025-09-22 20:26:05,074 - bank_agents.bank1_agent - INFO - Bank1Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose "I need  for s to start a manufacturing business"
+2025-09-22 20:26:05,664 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent executor set up, invoking with intent data
+2025-09-22 20:26:15,666 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:17,144 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:18,139 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:19,686 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:22,401 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:29,993 - bank_agents.bank1_agent - INFO - Bank1Agent: Agent invocation completed
+2025-09-22 20:26:31,137 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:34,225 - bank_agents.bank1_agent - INFO - Bank1Agent: Offer created - amount_approved: 332500, interest_rate: 0.06810000000000001, carbon_adjusted_rate: 0.0675
+2025-09-22 20:26:34,225 - bank_agents.bank2_agent - INFO - Bank2Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose "I need  for s to start a manufacturing business"
+2025-09-22 20:26:34,243 - bank_agents.bank2_agent - INFO - Bank2Agent: Agent executor set up, invoking with intent data
+2025-09-22 20:26:36,235 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:40,150 - __main__ - ERROR - Error from Bank 2 (Traditional): 1 validation error for assess_risk
+kwargs
+  Input should be a valid dictionary [type=dict_type, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-09-22 20:26:40,151 - bank_agents.bank3_agent - INFO - Bank3Agent: Starting loan request evaluation for company company_x, amount 350000.0, purpose "I need  for s to start a manufacturing business"
+2025-09-22 20:26:40,163 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent executor set up, invoking with intent data
+2025-09-22 20:26:40,320 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:44,635 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:49,560 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:49,754 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:51,248 - bank_agents.bank3_agent - INFO - Bank3Agent: Agent invocation completed
+2025-09-22 20:26:52,400 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-09-22 20:26:55,959 - bank_agents.bank3_agent - INFO - Bank3Agent: Offer created - amount_approved: 332500, interest_rate: 0.09295, carbon_adjusted_rate: 0.1025
+2025-09-22 20:26:55,964 - consumer_agent.agent - INFO - ConsumerAgent: Starting offer evaluation with 2 offers
+2025-09-22 20:26:55,981 - consumer_agent.agent - INFO - ConsumerAgent: Offer evaluation completed - selected bank: bank_1, total_score: 0.924

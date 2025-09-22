@@ -1,0 +1,247 @@
+{
+  "loan_requests": [
+    {
+      "timestamp": "2025-09-22T19:53:41.362292",
+      "request": {
+        "amount": 350000.0,
+        "duration": 36,
+        "purpose": "coal mining operations"
+      },
+      "offers": [
+        {
+          "bank_name": "Bank 1 (Green Focus)",
+          "bank_id": "bank_1",
+          "offer": {
+            "offer_id": "off_bcd37354",
+            "request_id": "req_7eef6a4a",
+            "bank_id": "bank_1",
+            "interest_rate": 0.12,
+            "amount_approved": 0,
+            "repayment_period": 36,
+            "esg_summary": "Loan rejected due to excluded industry: mining",
+            "carbon_adjusted_rate": 0.12,
+            "timestamp": "2025-09-22T14:23:10.851905Z",
+            "signature": "Jvy//Av2EVd315SzbNCZRXeLp6Dgtya/AcgLuvDKMks="
+          }
+        },
+        {
+          "bank_name": "Bank 3 (Tech Innovation)",
+          "bank_id": "bank_3",
+          "offer": {
+            "offer_id": "off_bd590554",
+            "request_id": "req_7eef6a4a",
+            "bank_id": "bank_3",
+            "interest_rate": 0.095,
+            "amount_approved": 350000,
+            "repayment_period": 36,
+            "esg_summary": "We assess the proposed coal mining operation as presenting moderate ESG risks due to its carbon intensity and environmental degradation potential; however, we also identify opportunities for innovative technologies such as autonomous haulage systems, advanced air quality monitoring, and renewable energy integration to mitigate these risks and unlock future sustainability benefits through a data-driven approach.",
+            "carbon_adjusted_rate": 0.1145,
+            "timestamp": "2025-09-22T14:23:41.362292Z",
+            "signature": "h9QdiV10I30F2M5Wut6IFlOixNaY2SO+SlS3pyKnmuw="
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-09-22T20:26:55.959520",
+      "request": {
+        "amount": 350000.0,
+        "duration": 36,
+        "purpose": "\"I need  for s to start a manufacturing business\""
+      },
+      "offers": [
+        {
+          "bank_name": "Bank 1 (Green Focus)",
+          "bank_id": "bank_1",
+          "offer": {
+            "offer_id": "off_57211701",
+            "request_id": "req_2f48d7bd",
+            "bank_id": "bank_1",
+            "interest_rate": 0.0681,
+            "amount_approved": 332500,
+            "repayment_period": 36,
+            "esg_summary": "We welcome your proposal to launch a manufacturing business with our loan, as it aligns with our bank's commitment to environmental sustainability by enabling the production of eco-friendly products, reducing waste and emissions, and promoting sustainable practices throughout your operations. Our green financing solution will provide access to capital while supporting your transition to a low-carbon economy, ultimately contributing to a more environmentally conscious industry. By partnering with us, you'll not only benefit from our competitive terms but also join a growing ecosystem of businesses prioritizing ESG principles and making a positive impact on the planet.",
+            "carbon_adjusted_rate": 0.0675,
+            "timestamp": "2025-09-22T14:56:34.225945Z",
+            "signature": "QblnZTCGbwq+avDL5pjV99kPZ5Io1FRBDnrG6JwkfaA="
+          }
+        },
+        {
+          "bank_name": "Bank 3 (Tech Innovation)",
+          "bank_id": "bank_3",
+          "offer": {
+            "offer_id": "off_3daabdda",
+            "request_id": "req_2f48d7bd",
+            "bank_id": "bank_3",
+            "interest_rate": 0.093,
+            "amount_approved": 332500,
+            "repayment_period": 36,
+            "esg_summary": "We are pleased to support your venture as it represents an exciting opportunity for Innovation Bank to invest in a cutting-edge manufacturing business that leverages the latest technological advancements to drive sustainable growth and minimize environmental impact, with potential for future-proofing through innovation-led efficiency gains and reduced carbon footprint. This loan will enable you to harness emerging technologies such as Industry 4.0 and renewable energy sources to propel your business forward, setting a precedent for environmentally conscious manufacturing practices that can be replicated in the industry at large. By backing this innovative project, we are confident that it will not only drive economic growth but also contribute to a more sustainable future for generations to come.",
+            "carbon_adjusted_rate": 0.1025,
+            "timestamp": "2025-09-22T14:56:55.959520Z",
+            "signature": "qY3o6m06fEGtpC4Fr91RXC+tB4mj1gxDsUUdbi4eUL4="
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-09-22T22:04:52.932082",
+      "request": {
+        "amount": 500000.0,
+        "duration": 36,
+        "purpose": "s to start a solar panel business with expected"
+      },
+      "offers": [
+        {
+          "bank_name": "Bank 1 (Green Focus)",
+          "bank_id": "bank_1",
+          "offer": {
+            "offer_id": "off_a6aeb491",
+            "request_id": "req_a25e31d2",
+            "bank_id": "bank_1",
+            "interest_rate": 0.045,
+            "amount_approved": 525000,
+            "repayment_period": 36,
+            "esg_summary": "Our ESG analysis supports the proposed loan to establish a solar panel business, aligning with EcoGreen Financial's commitment to environmental sustainability. This venture is expected to significantly reduce carbon emissions, promote renewable energy adoption, and contribute to a low-carbon economy, while also generating green financing opportunities through the sale of electricity credits. By supporting this project, we can enhance our bank's reputation as a responsible lender and contribute to a more sustainable future.",
+            "carbon_adjusted_rate": 0.0435,
+            "timestamp": "2025-09-22T16:34:26.031428Z",
+            "signature": "3Oog/Y7cKA33lXNRpJiv5WtQYBBlBlKp2+r6sbOtzf8="
+          }
+        },
+        {
+          "bank_name": "Bank 3 (Tech Innovation)",
+          "bank_id": "bank_3",
+          "offer": {
+            "offer_id": "off_96fd9086",
+            "request_id": "req_a25e31d2",
+            "bank_id": "bank_3",
+            "interest_rate": 0.055,
+            "amount_approved": 515000,
+            "repayment_period": 36,
+            "esg_summary": "This loan supports the launch of a pioneering solar panel business, poised to harness cutting-edge technology and drive sustainable energy solutions, with a focus on innovation and scalability that will help meet the growing demand for renewable energy sources and contribute to a carbon-neutral future. By leveraging advanced manufacturing techniques and innovative materials, this business is well-positioned to become a leader in the solar industry, creating new jobs and stimulating local economic growth while minimizing its environmental footprint. As the business scales and expands, it is committed to continued sustainability and social responsibility initiatives, ensuring long-term benefits for stakeholders and the planet.",
+            "carbon_adjusted_rate": 0.0785,
+            "timestamp": "2025-09-22T16:34:52.931071Z",
+            "signature": "v2FW/naHyXa9oHeYJ3t09XMNLuT+G9ytIckMF71kXUE="
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-09-22T22:10:08.905444",
+      "request": {
+        "amount": 500000.0,
+        "duration": 36,
+        "purpose": "solar panel business"
+      },
+      "offers": [
+        {
+          "bank_name": "Bank 1 (Green Focus)",
+          "bank_id": "bank_1",
+          "offer": {
+            "offer_id": "off_e62ee6e9",
+            "request_id": "req_b8aa6f82",
+            "bank_id": "bank_1",
+            "interest_rate": 0.045,
+            "amount_approved": 525000,
+            "repayment_period": 36,
+            "esg_summary": "We are pleased to provide financing for solar panel businesses that align with our ESG values, supporting the transition to renewable energy sources and reducing greenhouse gas emissions. By investing in this sector, we can help accelerate sustainable growth while promoting environmental sustainability and contributing to a cleaner energy future. Our green financing solutions will enable entrepreneurs and small businesses to harness the power of solar energy, driving economic development while protecting the planet.",
+            "carbon_adjusted_rate": 0.0435,
+            "timestamp": "2025-09-22T16:39:37.870553Z",
+            "signature": "mxl9O5cpZVQXLY5NXqnhxN+qhodvF3od8WrEc0Ro+Qo="
+          }
+        },
+        {
+          "bank_name": "Bank 2 (Traditional)",
+          "bank_id": "bank_2",
+          "offer": {
+            "offer_id": "off_3d8603cf",
+            "request_id": "req_b8aa6f82",
+            "bank_id": "bank_2",
+            "interest_rate": 0.048,
+            "amount_approved": 490000,
+            "repayment_period": 36,
+            "esg_summary": "We are pleased to provide financing for a solar panel business that aligns with our ESG principles, ensuring compliance with regulatory requirements and industry standards. Our risk assessment indicates that the project poses minimal environmental risks and adheres to standard environmental regulations, including the use of renewable energy sources and responsible waste management practices. The loan supports the development of sustainable infrastructure, contributing to reduced greenhouse gas emissions and alignment with global climate goals.",
+            "carbon_adjusted_rate": 0.045,
+            "timestamp": "2025-09-22T16:39:53.599781Z",
+            "signature": "MKSiA6SONP8rDGzLaJDgU6e1ZGJ86kgDw7VX4nhcObU="
+          }
+        },
+        {
+          "bank_name": "Bank 3 (Tech Innovation)",
+          "bank_id": "bank_3",
+          "offer": {
+            "offer_id": "off_0ce6c45c",
+            "request_id": "req_b8aa6f82",
+            "bank_id": "bank_3",
+            "interest_rate": 0.055,
+            "amount_approved": 515000,
+            "repayment_period": 36,
+            "esg_summary": "We are pleased to support the solar panel business through our loan facility, as it aligns with our bank's focus on technology and innovation, with a strong emphasis on future sustainability potential through cutting-edge solutions that drive environmental responsibility, while leveraging technological advancements to optimize energy efficiency and reduce carbon footprint. By investing in this project, we are not only contributing to the growth of the renewable energy sector but also promoting a more sustainable future for generations to come. The solar panel business's innovative approach to energy production aligns with our bank's ESG principles and values.",
+            "carbon_adjusted_rate": 0.0785,
+            "timestamp": "2025-09-22T16:40:08.905444Z",
+            "signature": "WbNpgoaaJg3SiJbtwSomPKBA6ht5Lt/6DWC18y8Dp1c="
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-09-22T22:41:54.071065",
+      "request": {
+        "amount": 500000.0,
+        "duration": 36,
+        "purpose": "solar panel business",
+        "expected_income": 200000.0
+      },
+      "offers": [
+        {
+          "bank_name": "Bank 1 (Green Focus)",
+          "bank_id": "bank_1",
+          "offer": {
+            "offer_id": "off_e6d9def7",
+            "request_id": "req_28087ef9",
+            "bank_id": "bank_1",
+            "interest_rate": 0.045,
+            "amount_approved": 525000,
+            "repayment_period": 36,
+            "esg_summary": "Our ESG assessment of the solar panel business highlights its strong alignment with environmental sustainability goals, as it enables customers to transition to renewable energy sources while reducing carbon footprint. As a green financing option, our loan supports the development and deployment of sustainable energy solutions, contributing to a low-carbon economy and helping to achieve our bank's commitment to eco-friendly practices. By investing in solar panel businesses, we can promote sustainable growth and create a positive environmental impact for generations to come.",
+            "carbon_adjusted_rate": 0.0435,
+            "timestamp": "2025-09-22T17:11:15.134690Z",
+            "signature": "e+u1R0Coi0loHwxVUbXBWcd1d0wXXTc2xoIA827Z+04="
+          }
+        },
+        {
+          "bank_name": "Bank 2 (Traditional)",
+          "bank_id": "bank_2",
+          "offer": {
+            "offer_id": "off_72bdec28",
+            "request_id": "req_28087ef9",
+            "bank_id": "bank_2",
+            "interest_rate": 0.048,
+            "amount_approved": 490000,
+            "repayment_period": 36,
+            "esg_summary": "We are pleased to support the solar panel business by providing financing solutions that align with our ESG standards, ensuring compliance with regulatory requirements and industry best practices. A thorough risk assessment has been conducted to identify potential environmental risks associated with the project, such as land use and water usage, which will be mitigated through robust due diligence and monitoring measures. The loan is also aligned with our standard environmental requirements, including a focus on renewable energy sources, energy efficiency, and minimizing waste and pollution.",
+            "carbon_adjusted_rate": 0.045,
+            "timestamp": "2025-09-22T17:11:33.307649Z",
+            "signature": "iZpwWDleyT1j1cb1bNBpl5zOQjo7UPAnOfnsSFIPvj0="
+          }
+        },
+        {
+          "bank_name": "Bank 3 (Tech Innovation)",
+          "bank_id": "bank_3",
+          "offer": {
+            "offer_id": "off_590476b8",
+            "request_id": "req_28087ef9",
+            "bank_id": "bank_3",
+            "interest_rate": 0.055,
+            "amount_approved": 515000,
+            "repayment_period": 36,
+            "esg_summary": "Our loan supports a pioneering solar panel business that leverages cutting-edge technology to drive sustainable energy solutions, fostering innovation in the industry and contributing to a low-carbon future; the company's forward-thinking approach prioritizes R&D investment, enabling it to stay at the forefront of technological advancements and capitalize on emerging market trends; by backing this visionary player, we are investing in a promising future for a more resilient and environmentally conscious economy.",
+            "carbon_adjusted_rate": 0.0785,
+            "timestamp": "2025-09-22T17:11:54.070053Z",
+            "signature": "mfkZEjxTpQIWQv0PeDdDlM3XRd98qvtZAiCLJ7AWK0I="
+          }
+        }
+      ]
+    }
+  ]
+}

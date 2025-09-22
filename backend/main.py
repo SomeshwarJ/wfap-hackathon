@@ -1,17 +1,24 @@
 import asyncio
 import json
+import logging
 from consumer_agent.agent import ConsumerAgent
 from bank_agents.bank1_agent import Bank1Agent
 from bank_agents.bank2_agent import Bank2Agent
 from bank_agents.bank3_agent import Bank3Agent
 from shared.config import OllamaConfig
 
+logging.basicConfig(
+    filename='log.txt',
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 
 async def main():
     print("🚀 WFAP Credit Negotiation System with Local Ollama")
     print("=" * 55)
 
-    # Check Ollama connection
     print("Checking Ollama connection...")
     try:
         import requests
@@ -27,21 +34,9 @@ async def main():
         print("Please make sure Ollama is installed and running on http://localhost:11434")
         return
 
-    # Let user choose model
-    print("\nAvailable models:")
-    available_models = list(OllamaConfig.MODELS.values())
-    for i, model in enumerate(available_models, 1):
-        print(f"{i}. {model}")
+    selected_model = OllamaConfig.DEFAULT_MODEL
+    print(f"Using default model: {selected_model}")
 
-    try:
-        choice = int(input(f"\nChoose model (1-{len(available_models)}): ")) - 1
-        selected_model = available_models[choice]
-        print(f"Selected model: {selected_model}")
-    except:
-        selected_model = OllamaConfig.DEFAULT_MODEL
-        print(f"Using default model: {selected_model}")
-
-    # Initialize agents with selected model
     print("\nInitializing agents...")
     consumer = ConsumerAgent(model_name=selected_model)
     bank1 = Bank1Agent(model_name=selected_model)
@@ -54,7 +49,6 @@ async def main():
         "Bank 3 (Tech Innovation)": bank3
     }
 
-    # Get user input
     print("\n" + "=" * 55)
     print("Enter Loan Details:")
     print("=" * 55)
@@ -71,23 +65,23 @@ async def main():
     print(f"   Purpose: {purpose}")
     print("\nSending to 3 different banks...")
 
-    # Create intent
     from shared.utils import create_signed_intent
     intent_data = create_signed_intent("company_x", amount, duration, purpose)
 
-    # Get offers from all banks
     offers = []
     for bank_name, bank in banks.items():
         try:
             print(f"\n🔄 Getting offer from {bank_name}...")
             result = await bank.evaluate_loan_request(intent_data)
 
-            # Parse the result to get the actual offer data
             if isinstance(result, dict) and 'output' in result:
                 try:
                     offer_data = json.loads(result['output'])
-                    offers.append(offer_data)
-                    print(f"   ✅ Offer received: {offer_data.get('bank_id')}")
+                    if offer_data.get('amount_approved', 0) > 0:
+                        offers.append(offer_data)
+                        print(f"   ✅ Offer received: {offer_data.get('bank_id')}")
+                    else:
+                        print(f"   ❌ Offer rejected by {bank_name}: {offer_data.get('esg_summary', 'No reason provided')}")
                 except:
                     offers.append(result)
                     print(f"   ✅ Offer received (raw)")
@@ -102,10 +96,10 @@ async def main():
         print("\n❌ No offers received from any bank.")
         return
 
-    # Let consumer evaluate offers using the MCP tool
     print(f"\n📊 Received {len(offers)} offers. Evaluating using decision logic...")
     try:
-        # Use the direct evaluation method
+        for i in offers:
+            print("result: ", i, "\n\n")
         evaluation_result = await consumer.evaluate_offers(offers)
 
         print("\n" + "=" * 55)
